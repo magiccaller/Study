@@ -17,5 +17,5 @@
   
   <br\>
   
-  ##Contacts
-    :e-mail: : bestofall77@gmail.com
+##Contacts
+ :e-mail: : bestofall77@gmail.com
