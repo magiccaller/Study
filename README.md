@@ -13,8 +13,8 @@
    -  [S/W공학 & Programming 개론](Study/Study/Basic/0113.md)
     
   
-###2. Java basics :coffee:
-  
+###2. Java basics :coffee:  
+  -  [Java기초 & javadoc · 연산자 · 조건문 · 반복문](Study/Study/Basic/0116.md)
   <br\>
   
 ##Contacts
