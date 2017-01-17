@@ -15,6 +15,9 @@
   
 ###2. Java basics :coffee:  
   -  [Java기초 & javadoc · 연산자 · 조건문 · 반복문](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0116.md)
+  -  [객체 사용 & Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0117.md)
+  
+  
   <br\>
   
 ##Contacts
