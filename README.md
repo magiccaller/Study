@@ -18,6 +18,8 @@
   -  [객체 사용 & Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0117.md)
   
   
+  -  [Array · Collection · String & Quiz](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0118.md) 
+  
   <br\>
   
 ##Contacts
