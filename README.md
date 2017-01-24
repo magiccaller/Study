@@ -33,6 +33,9 @@
 
  -  [Android Studio Basic & Git,Travis](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0123.md)
  
+ -  [Basic Veiw & Calculator 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0124.md)  
+ :arrow_forward: [Calculator Project File](https://github.com/RohHyungmin/Calculator)
+ 
  
   
 ##Myproject :boom:  
