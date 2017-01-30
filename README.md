@@ -34,7 +34,12 @@
  -  [Android Studio Basic & Git,Travis](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0123.md)
  
  -  [Basic Veiw & Calculator 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0124.md)  
- :arrow_forward: [Calculator Project File](https://github.com/RohHyungmin/Calculator)
+ :arrow_forward: [Calculator](https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/CalculaotorActivity.java)
+ 
+ - [Widget 활용 & 동적 레이아웃 구성 & 단위변환기 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0125.md)  
+  :arrow_forward:[Convertor] (https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
+ 
+ -  [Activity Life Cycle & Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)
  
  
   
