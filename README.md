@@ -41,6 +41,8 @@
  
  -  [Activity Life Cycle & Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)
  
+ -  [ListView & RecyclerView & CardView Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0131.md)
+ 
  
   
 ##Myproject :boom:  
