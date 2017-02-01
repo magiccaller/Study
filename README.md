@@ -37,11 +37,13 @@
  :arrow_forward: [Calculator](https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/CalculaotorActivity.java)
  
  - [Widget 활용 & 동적 레이아웃 구성 & 단위변환기 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0125.md)  
-  :arrow_forward:[Convertor] (https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
+  :arrow_forward: [Convertor] (https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
  
- -  [Activity Life Cycle & Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)
+ -  [Activity Life Cycle & Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)  
+ :paperclip: [source](https://github.com/RohHyungmin/Activity-Life-Cycle-_Major-Component/tree/master/app/src/main)
  
- -  [ListView & RecyclerView & CardView Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0131.md)
+ -  [ListView & RecyclerView & CardView Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0131.md)  
+ :paperclip: [source](https://github.com/RohHyungmin/List_Recycler_Card_View/tree/master/app/src/main)
  
  
   
