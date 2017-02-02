@@ -52,6 +52,11 @@
  -  [RuntimePermission & ContentResolver](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0201.md)
    
    :paperclip:[source](https://github.com/RohHyungmin/RuntimePermission/tree/master/app/src/main)
+   
+ -  [Glide, Handler, ViewPager & MusicPlayer 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0202.md)
+ 
+  :arrow_forward: [MusicPlayer](https://github.com/RohHyungmin/MusicPlayer/tree/master/app/src/main)
+ 
  
   
 ##Myproject :boom:  
