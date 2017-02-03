@@ -23,7 +23,9 @@
   
   -  [Billboard 설계 & 기능구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0119.md)
   
-  - [IO/NIO](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0120.md)
+  -  [IO/NIO](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0120.md)
+  
+  -  [Interface_Abstract & Exception & Generic & Annotation](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0203.md)
   
   <br\>
   
@@ -56,6 +58,8 @@
  -  [Glide, Handler, ViewPager & MusicPlayer 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0202.md)
  
   :arrow_forward: [MusicPlayer](https://github.com/RohHyungmin/MusicPlayer/tree/master/app/src/main)
+  
+ -  [Version Compatibility & MusicPlayer 세부기능 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0203.md)
  
  
   
