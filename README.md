@@ -45,17 +45,11 @@
  
  :arrow_forward: [Convertor] (https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
  
- -  [Activity Life Cycle · Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)  
-
-  :paperclip: [source](https://github.com/RohHyungmin/Activity-Life-Cycle-_Major-Component/tree/master/app/src/main)
+ -  [Activity Life Cycle · Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)  :paperclip: [source](https://github.com/RohHyungmin/Activity-Life-Cycle-_Major-Component/tree/master/app/src/main)
  
- -  [ListView · RecyclerView · CardView Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0131.md)  
-
-  :paperclip: [source](https://github.com/RohHyungmin/List_Recycler_Card_View/tree/master/app/src/main)
+ -  [ListView · RecyclerView · CardView Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0131.md)   :paperclip: [source](https://github.com/RohHyungmin/List_Recycler_Card_View/tree/master/app/src/main)
  
- -  [RuntimePermission · ContentResolver](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0201.md)
-   
-   :paperclip:[source](https://github.com/RohHyungmin/RuntimePermission/tree/master/app/src/main)
+ -  [RuntimePermission · ContentResolver](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0201.md)  :paperclip:[source](https://github.com/RohHyungmin/RuntimePermission/tree/master/app/src/main)
    
  -  [Glide, Handler, ViewPager · MusicPlayer 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0202.md)
  
