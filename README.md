@@ -13,7 +13,7 @@
    -  [S/W공학 · Programming 개론](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0113.md)
     
   
-###2. Java basics :coffee:  
+###2. Java :coffee:  
   -  [Java기초 · javadoc · 연산자 · 조건문 · 반복문](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0116.md)
   -  [객체 사용 · Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0117.md)
   
@@ -27,6 +27,7 @@
   
   -  [Interface_Abstract · Exception · Generic · Annotation](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0203.md)
   
+  - [Design Pattern 1](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0209.md)
 
   
   <br\>
@@ -65,7 +66,7 @@
  
  - [Polymorphism · SOLID원칙에 맞춰 CodeRefactoring · PageTransformer](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0208.md)
  
- - [Design Pattern 1](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0209.md)
+ 
   
 ##Myproject :boom:  
 
