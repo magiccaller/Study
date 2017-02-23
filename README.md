@@ -77,6 +77,8 @@
  
  -  [Custom Widget · View ](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0221.md)
  
+ -  [Thread · Handler / AsyncTask](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0223.md)
+ 
  
   
 ##Myproject :boom:  
