@@ -28,7 +28,7 @@
   
   -  [Interface_Abstract · Exception · Generic · Annotation](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0203.md)
   
-  - [Design Pattern](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0209.md)
+  - [Design Pattern](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0209_0210.md)
   
   - [Eclipse로 MYSQL 연결](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0220.md)
 
