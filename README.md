@@ -5,13 +5,13 @@
 ###1. 컴퓨터 & 프로그래밍 개론 :white_check_mark:
 <br\>
 
-   -  [Git · 컴퓨터 기초](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0109_0110.md)
+   -  [Git · 컴퓨터 기초](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0109_0110.md)
   
-   -  [컴퓨터 작동 원리 · 운영체제](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0111.md)
+   -  [컴퓨터 작동 원리 · 운영체제](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0111.md)
   
-   -  [DataBase · Network](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0112.md)
+   -  [DataBase · Network](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0112.md)
   
-   -  [S/W공학 · Programming 개론](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0113.md)
+   -  [S/W공학 · Programming 개론](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0113.md)
     
   
 ###2. Java :coffee:  
