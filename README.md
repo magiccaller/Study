@@ -15,11 +15,11 @@
     
   
 ###2. Java :coffee:  
-  -  [Java기초 · javadoc · 연산자 · 조건문 · 반복문](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0116.md)
-  -  [객체 사용 · Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0117.md)
+  -  [Java기초 · javadoc · 연산자 · 조건문 · 반복문](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0116.md)
+  -  [객체 사용 · Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0117.md)
   
   
-  -  [Array · Collection · String · Quiz](https://github.com/RohHyungmin/Study/blob/master/Study/Basic/0118.md) 
+  -  [Array · Collection · String · Quiz](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0118.md) 
   
   
   -  [Billboard 설계 · 기능구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0119.md)
