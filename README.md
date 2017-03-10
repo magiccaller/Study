@@ -90,6 +90,8 @@
  
  - [DI : Android Annotation · ButterKnife](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0309.md)
  
+ - [BLE · PermissionControl ](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0310.md)
+ 
  
  ###4.Server  :floppy_disk:
  
