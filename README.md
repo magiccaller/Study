@@ -98,8 +98,8 @@
  -  [Node.js Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0307_2_nodeJs.md)
  -  [TomCat Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0308.md)
  
- -  [Firebase · Chat](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0313.md)
- :paperclip: [src](https://github.com/RohHyungmin/FirebaseChat/tree/master/app/src/main/java/com/veryworks/android/firebasechat)
+ -  [Firebase](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0313.md)
+ :paperclip: [Chat src](https://github.com/RohHyungmin/FirebaseChat/tree/master/app/src)
  
   
 ##Myproject :boom:  
