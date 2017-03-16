@@ -1,9 +1,8 @@
-#Study for programming :computer: :memo:
-<br\> 
-##Contents :open_file_folder:
+# Study for programming :computer: :memo:
+ 
+## Contents :open_file_folder:
 
-###1. 컴퓨터 & 프로그래밍 개론 :white_check_mark:
-<br\>
+### 1. 컴퓨터 & 프로그래밍 개론 :white_check_mark:
 
    -  [Git · 컴퓨터 기초](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0109_0110.md)
   
@@ -14,7 +13,7 @@
    -  [S/W공학 · Programming 개론](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0113.md)
     
   
-###2. Java :coffee:  
+### 2. Java :coffee:  
   -  [Java기초 · javadoc · 연산자 · 조건문 · 반복문](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0116.md)
   -  [객체 사용 · Pattern Draw](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0117.md)
   
@@ -35,7 +34,7 @@
   
   <br\>
   
-###3.  Android :iphone:
+### 3.  Android :iphone:
 
 
 
@@ -47,7 +46,7 @@
  
  - [Widget 활용 · 동적 레이아웃 구성 · 단위변환기 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0125.md)  
  
- :arrow_forward: [Convertor] (https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
+ :arrow_forward: [Convertor](https://github.com/RohHyungmin/Calculator_Convertor/blob/master/app/src/main/java/com/hyugnmin/android/widgets/UnitActivity.java)
  
  -  [Activity Life Cycle · Major Component](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0126.md)  :paperclip: [src](https://github.com/RohHyungmin/Activity-Life-Cycle-_Major-Component/tree/master/app/src/main)
  
@@ -61,7 +60,7 @@
   
  -  [Version Compatibility · MusicPlayer 세부기능 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0203.md)
  
- -  [Fragment] (https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0206.md)  :paperclip: [Control](https://github.com/RohHyungmin/FragmentControl/tree/master/app/src/main/java/com/hyugnmin/android/fragmentcontrol)   :paperclip: [tab & viewPager](https://github.com/RohHyungmin/FragmentTab_viewPager/tree/master/app/src/main/java/com/hyugnmin/android/fragmenttab)
+ -  [Fragment](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0206.md)  :paperclip: [Control](https://github.com/RohHyungmin/FragmentControl/tree/master/app/src/main/java/com/hyugnmin/android/fragmentcontrol)   :paperclip: [tab & viewPager](https://github.com/RohHyungmin/FragmentTab_viewPager/tree/master/app/src/main/java/com/hyugnmin/android/fragmenttab)
  
  -  [GoogleMap과 GPS활용 · Optimization · MyUtility 앱 구현](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0207.md)  
  
@@ -71,7 +70,7 @@
  
  - [OOP형태로 Permission check 분리 · Camera Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0210.md)  :paperclip: [src](https://github.com/RohHyungmin/Camera-Basic/tree/master/app/src/main/java/com/hyugnmin/android/camerabasic)
  
- -  [MYSQL Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0213_0214.md) :paperclip: [src] (https://github.com/RohHyungmin/MYSQL-Basic/tree/master/app/src/main/java/com/hyugnmin/android/bbsbasic)
+ -  [MYSQL Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0213_0214.md) :paperclip: [src](https://github.com/RohHyungmin/MYSQL-Basic/tree/master/app/src/main/java/com/hyugnmin/android/bbsbasic)
  
  -  [Java8(Lambda...)](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0220.md)
  
@@ -79,9 +78,9 @@
  
  -  [Thread · Handler / AsyncTask](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0223.md)
  
- - [Service] (https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0224.md)
+ - [Service](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0224.md)
  
- - [Media Notification] (https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0302.md)
+ - [Media Notification](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0302.md)
  
  - [Activity와 Service,NotiBar 연결 컨트롤 · Network Connection](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0303.md)
  
@@ -93,7 +92,7 @@
  - [BLE · PermissionControl ](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0310.md)
  
  
- ###4.Server  :floppy_disk:
+ ### 4. Server  :floppy_disk:
  
  -  [Node.js Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0307_2_nodeJs.md)
  -  [TomCat Basic](https://github.com/RohHyungmin/Study/blob/master/Programming/basicStudy/0308.md)
@@ -103,14 +102,14 @@
  :paperclip: [FCM src](https://github.com/RohHyungmin/FirebaseCloudMessage/tree/master/app/src/main/java/com/hyugnmin/android/firebasecloudmessage)
  
   
-##Myproject :boom:  
+## Myproject :boom:  
 
 
   -  [RandomPick](https://github.com/RohHyungmin/Study/blob/master/Programming/myProject/RandomPick.md)
 
 
-##Coproject :star2:
+## Coproject :star2:
 
 
-##Contacts
+## Contacts
  :e-mail: : bestofall77@gmail.com
