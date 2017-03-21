@@ -143,4 +143,5 @@ myClazz.print();
 
 ```
 
--  html, javascrpit 공부해놓아야 이해
+-  html, javascrpit 공부해놓아야 이해 가능
+-  [참고 GitBook](https://javafa.gitbooks.io/nodejs_server_basic/content/chapter3.html)
