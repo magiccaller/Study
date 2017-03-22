@@ -145,3 +145,239 @@ myClazz.print();
 
 -  html, javascrpit 공부해놓아야 이해 가능
 -  [참고 GitBook](https://javafa.gitbooks.io/nodejs_server_basic/content/chapter3.html)
+
+
+# 03_22
+
+Socket = ip + port
+
+pc - 프로그램 접속 주소 체계
+
+parse = 문자나 숫자를 객체화 
+
+
+## 클라이언트 요청(GET) 처리
+
+```javascript
+var http = require('http');
+
+// 1. 요청한 url을 객체로 만들기 위해 url 모듈사용
+var url = require('url');
+// 2. 요청한 url 중에 Query String 을 객체로 만들기 위해 querystring 모듈 사용
+var querystring = require('querystring'); 
+
+var server = http.createServer(function(request,response){
+    // 3. 콘솔화면에 로그 시작 부분을 출력
+    console.log('--- log start ---');
+    //4. 브라우저에서 요청한 주소를 parsing 하여 객체화 후 출력
+    var parsedUrl = url.parse(request.url);
+    console.log(parsedUrl);
+    // 5. 객체화된 url 중에 Query String 부분만 따로 객체화 후 출력
+    var parsedQuery = querystring.parse(parsedUrl.query,'&','=');
+    //http://도메인/디렉토리/디렉토리2/파일명?  변수1 = 값 & 변수 2= 값
+    //변수 : '값' 형태로 만들어준다.
+    console.log(parsedQuery);
+    console.log("abc=" + parsedQuery.abc);
+    console.log("abc=" + parsedQuery.bcd);
+
+    // if(parsedUrl.pathname == "/public/파일명") {
+    //     이런 식으로 처리 
+    // }
+
+    //6. 콘솔화면에 로그 종료 부분을 출력
+    console.log('--- log end ---');
+    
+    response.writeHead(200, {'Content-Type':'text/html'});
+    response.end('Hello node.js!!');
+
+});
+
+server.listen(8080, function(){
+    console.log('Server is running...');
+});
+
+```
+
+## 클라이언트 요청(POST) 처리
+
+크롭 앱 postman 
+api 테스트 툴 
+
+```javascrpit
+
+var http = require('http');
+var querystring = require('querystring');
+
+var server = http.createServer(function(request,response){
+  // 1. post로 전달된 데이터를 담을 변수를 선언
+  var postdata = '';
+
+  //request.on = 안드로이드의 리스너와 동일한 역할 , data 이벤트 발생시 등록된 callback 함수가 동작 
+  // 2. request객체에 on( ) 함수로 'data' 이벤트를 연결
+  request.on('data', function (data) {
+    // 3. data 이벤트가 발생할 때마다 callback을 통해 postdata 변수에 값을 저장
+    console.log("data 이벤트 발생")
+    postdata = postdata + data;
+  });
+
+  // 4. request객체에 on( ) 함수로 'end' 이벤트를 연결
+  request.on('end', function () {
+    // 5. end 이벤트가 발생하면(end는 한버만 발생한다) 3번에서 저장해둔 postdata 를 querystring 으로 객체화
+    var parsedQuery = querystring.parse(postdata);
+    // 6. 객체화된 데이터를 로그로 출력
+    console.log(parsedQuery);
+    // 7. 성공 HEADER 와 데이터를 담아서 클라이언트에 응답처리
+    response.writeHead(200, {'Content-Type':'text/html'});
+    response.end('var1의 값 = ' + parsedQuery.aaa);
+  });
+
+});
+
+server.listen(8080, function(){
+    console.log('Server is running...');
+});
+
+```
+
+
+## module 사용하기 
+
+-  lib, util의 개념
+-  var custom = require(폴더명/파일명);으로 불러 쓴다
+
+
+-  custom_module
+
+```javascript
+
+// 1. exports 객체를 사용해서 sum이라는 변수를 만들고, sum 변수에 function 을 사용해서 하나의 파라미터를 가진 함수식을 대입
+exports.sum = function(max) {
+    // 2. 입력된 값을 최대값으로 1부터 최대값까지 더해서 반환하는 로직
+    return (max+1)*max/2;
+}
+
+// 3. var1 변수에 'NEW VALUE 100' 입력
+exports.var1 = 'NEW VALUE 100';
+
+exports.getVar1 = function() {
+	return exports.var1;
+}
+
+``` 
+
+-  module_test
+
+```javascript
+
+var custom = require("./custom_module");
+
+var result = custom.sum(100);
+
+console.log("result=" + result);
+
+console.log("var1 =" + custom.getVar1());
+
+```
+
+-  함수를 부를 때 ()를 붙이지 않으면 코드 주소 영역(코드 내용)을 전체다 호출 해주고 ()를 붙이면 함수를 실행시켜준다
+
+
+## event 처리
+
+-  [부가 정보](https://javafa.gitbooks.io/nodejs_server_basic/content/chapter7.html)
+
+```javascript
+
+var http = require('http');
+
+// 1. 이벤트가 정의되 있는 events 모듈 생성. 이전 버전의 process.EventEmitter() 는 deprecated!
+var EventEmitter = require('events');
+
+// 2. 생성된 이벤트 모듈을 사용하기 위해 custom_object로 초기화
+var custom_object = new EventEmitter();
+
+// 3. events 모듈에 선언되어 있는 on( ) 함수를 재정의 하여 'call' 이벤트를 처리 
+custom_object.on('call', ()=> {
+    console.log('called events!');
+});
+
+var server = http.createServer((request, response) => {
+
+		//요청한 url이 /call과 같으면 위에 작성된 call 이벤트를 발생시킨다 
+		if(request.url == "/call") {
+			//call 이벤트는 비동기로 백그라운드에서 동작하게 된다 
+			// custom_object.emit("call");
+			//call 함수는 현재 thread에서 동작하게 된다 
+			call();
+		}
+
+		response.end("");
+});
+
+server.listen(10000, ()=> {
+	console.log("server is running!! ");
+});
+
+
+```
+
+
+##  파일입출력
+
+```javascript
+
+var http = require('http');
+var url = require('url');
+var fs = require('fs');
+// 1. 서버생성
+var server = http.createServer((request,response)=>{
+	var parsedUrl = url.parse(request.url);
+	var res = parsedUrl.pathname;
+
+	if(res == "/index.html"){
+		// 파일을 읽어서 전송한다.
+		fs.readFile('index.html', 'utf-8', (error, data)=>{
+		    response.writeHead(200, {'Content-Type':'text/html'});
+    		response.end(data);
+		});
+	}else if(res == "/temp.jpg"){
+		// 파일을 읽어서 전송한다. 이미지 등의 바이너리 파일은 읽을 때 캐릭터셋(utf-8) 을 지정하지 않는다
+		fs.readFile('temp.jpg', (error, data)=>{
+		    response.writeHead(200, {'Content-Type':'image/jpeg'});
+    		response.end(data);
+		});
+	// 요청한 페이지가 없을 경우
+	}else{
+		response.writeHead(404, {'Content-Type':'text/html'});
+    	response.end("<h1>404</h1> Page Not Found!");
+	}
+});
+server.listen(1004,()=>{
+	console.log("Server is running...");
+});
+
+
+```
+
+
+
+-  index.html
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>my homepage</title>
+</head>
+<body>
+
+contents, <br/>
+<img src="temp.jpg"/>
+
+</body>
+</html>
+
+```
+
