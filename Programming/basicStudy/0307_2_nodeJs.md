@@ -381,3 +381,112 @@ contents, <br/>
 
 ```
 
+
+## server Complete
+
+
+-  server_alpha1.js
+
+```javascript
+
+var http = require('http');
+var url = require('url');
+var fs = require('fs');
+// mime 모듈 추가. 서비스하려는 파일의 타입을 알아내기 위해서 필요
+var mime = require('mime');
+
+// 1. 서버생성
+var server = http.createServer((request,response)=>{
+	var parsedUrl = url.parse(request.url);
+	var res = parsedUrl.pathname;
+
+	// root 처리
+	if(res == "/"){
+		res = "/index.html";	
+	}
+
+	// 제일앞에 / 를 제거하면 fs.readfile에서 실제 경로상의 파일을 접근할 수 있다
+	res = res.substring(1);
+	var resMime = mime.lookup(res); // 파일의 mimeType을 가져온다
+	
+	console.log("mime="+resMime);
+
+	// 요청된 파일의 mime type 이 text/html 일 경우만 처리
+	if(resMime == "text/html"){
+		// 파일을 읽어서 전송한다.
+		fs.readFile(res, 'utf-8', (error, data)=>{
+		    response.writeHead(200, {'Content-Type':'text/html'});
+    		response.end(data);
+		});
+	// 그 이외의 mime type은 모두 여기서 처리
+	} else {
+		// 파일을 읽어서 전송한다. 이미지 등의 바이너리 파일은 읽을 때 캐릭터셋(utf-8) 을 지정하지 않는다
+		fs.readFile(res, (error, data)=>{
+			if(error){
+				response.writeHead(404, {'Content-Type':'text/html'});
+	    		response.end("<h1>404 page not found!</h1>");
+			}else{
+			    response.writeHead(200, {'Content-Type':resMime});
+	    		response.end(data);
+    		}
+		});
+	// 요청한 페이지가 없을 경우
+	}
+});
+server.listen(1004,()=>{
+	console.log("Server is running...");
+});
+
+```
+
+
+-  index.html
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>my homepage</title>
+</head>
+<body>
+
+<h1>this is index.html</h1> <br/>
+
+<o1>
+	<li><a href="a.html">a.html</a></li>
+	<li><a href="new/b.html">b.html</a></li>
+	<li><a href="http://localhost:1003/temp.jpg">server_file 서버로 이동 </a></li>
+	<li><a href="#" onclick="javascript:alert('hi!')"> popUp </a></li>
+</o1>
+
+</body>
+</html>
+
+```
+
+-  b.html
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>my homepage</title>
+</head>
+<body>
+
+contents, <br/>
+<img src="temp.jpg"/>
+
+<h1> this is B </h1>
+
+
+
+</body>
+</html>
+
+```
+
